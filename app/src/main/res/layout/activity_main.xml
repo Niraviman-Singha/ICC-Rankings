@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky_clouds_sunset"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/iccTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="ICC"
+            android:textColor="#FF5722"
+            android:textSize="65sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    <TextView
+        android:id="@+id/iccTV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cricket Rankings"
+        android:textColor="#E8346F"
+        android:textSize="50sp"
+        android:textStyle="bold|italic">
+
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#19C0E8"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="15dp">
+
+        <TextView
+            android:id="@+id/teamsTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Teams"
+            android:textAlignment="center"
+            android:layout_marginTop="25dp"
+            android:textColor="#E91E63"
+            android:textSize="42sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#b967ff"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="15dp">
+
+        <TextView
+            android:id="@+id/battingTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Batting"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#053861"
+            android:textSize="42sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#05ffa1"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="15dp">
+
+        <TextView
+            android:id="@+id/bowlingTY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="Bowling"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#F44336"
+            android:textSize="42sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#009688"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="15dp">
+
+        <TextView
+            android:id="@+id/allRounderTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:text="All-rounders"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textColor="#FFC107"
+            android:textSize="42sp"
+            android:textStyle="bold">
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
